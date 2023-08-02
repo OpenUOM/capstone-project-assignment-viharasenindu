@@ -45,6 +45,7 @@ app.post("/getTeacherInfo", async function (req, res) {
   res.end(JSON.stringify(data));
 });
 
+
 app.post("/addTeacher", async function (req, res) {
   let reqBody = req.body;
   console.log(

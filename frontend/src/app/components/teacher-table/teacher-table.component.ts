@@ -83,4 +83,3 @@ export class TeacherTableComponent implements OnInit {
     })
   }
 }
-}
